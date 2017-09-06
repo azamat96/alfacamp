@@ -8519,7 +8519,7 @@ button.close {
 }
 
 .fa-twitter:before {
-    content: "\f099"
+   content: "\f099"
 }
 
 .fa-facebook-f:before,
@@ -9489,7 +9489,9 @@ button.close {
 }
 
 .fa-google:before {
+
     content: "\f0d5"
+
 }
 
 .fa-reddit:before {
@@ -10600,6 +10602,7 @@ button.close {
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
+
 @font-face {
     font-family: "Sero Pro";
     src: url(/css/fonts/sero_pro/SeroPro.eot);
@@ -10909,16 +10912,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f0030', end
 }
 
 .user-dropdown, #main-header .lang-selector>.dropdown-menu {
+
+
     min-width: 70px;
     left: 14px;
     margin-top: -1px;
     background-color: #950707;
     border-radius: 3px
 }
+
 #main-header .user-dropdown>li>a:focus,
 #main-header .user-dropdown>li>a:hover{
     color: #000;
 }
+
 
 #main-header .lang-selector>.dropdown-menu>li>a:focus,
 #main-header .lang-selector>.dropdown-menu>li>a:hover,
@@ -14338,3 +14345,4 @@ button:focus {
         max-width: 100%;
     }
 }
+
